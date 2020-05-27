@@ -16,6 +16,10 @@
 		1542C8D8247C15A000C38D3D /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1542C8D7247C15A000C38D3D /* ChoiceViewController.swift */; };
 		1542C8DB247C1A3B00C38D3D /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1542C8D9247C1A3B00C38D3D /* MainTableViewCell.swift */; };
 		1542C8DC247C1A3B00C38D3D /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1542C8DA247C1A3B00C38D3D /* MainTableViewCell.xib */; };
+		1542C8DF247D64DA00C38D3D /* Curruncy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1542C8DE247D64DA00C38D3D /* Curruncy.swift */; };
+		1542C8E1247D64FC00C38D3D /* Gold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1542C8E0247D64FC00C38D3D /* Gold.swift */; };
+		1542C8E3247D657C00C38D3D /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1542C8E2247D657C00C38D3D /* Rate.swift */; };
+		1542C8E6247D65C500C38D3D /* RawMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1542C8E5247D65C500C38D3D /* RawMaterials.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		1542C8D7247C15A000C38D3D /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
 		1542C8D9247C1A3B00C38D3D /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		1542C8DA247C1A3B00C38D3D /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		1542C8DE247D64DA00C38D3D /* Curruncy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curruncy.swift; sourceTree = "<group>"; };
+		1542C8E0247D64FC00C38D3D /* Gold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gold.swift; sourceTree = "<group>"; };
+		1542C8E2247D657C00C38D3D /* Rate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
+		1542C8E5247D65C500C38D3D /* RawMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawMaterials.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,11 +77,23 @@
 				1542C8C9247C0E7100C38D3D /* Main.storyboard */,
 				1542C8D9247C1A3B00C38D3D /* MainTableViewCell.swift */,
 				1542C8DA247C1A3B00C38D3D /* MainTableViewCell.xib */,
+				1542C8DD247D64A800C38D3D /* Data */,
 				1542C8CC247C0E7500C38D3D /* Assets.xcassets */,
 				1542C8CE247C0E7500C38D3D /* LaunchScreen.storyboard */,
 				1542C8D1247C0E7500C38D3D /* Info.plist */,
 			);
 			path = WhatYouWant;
+			sourceTree = "<group>";
+		};
+		1542C8DD247D64A800C38D3D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1542C8DE247D64DA00C38D3D /* Curruncy.swift */,
+				1542C8E0247D64FC00C38D3D /* Gold.swift */,
+				1542C8E2247D657C00C38D3D /* Rate.swift */,
+				1542C8E5247D65C500C38D3D /* RawMaterials.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,8 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1542C8E6247D65C500C38D3D /* RawMaterials.swift in Sources */,
 				1542C8C8247C0E7100C38D3D /* ViewController.swift in Sources */,
+				1542C8E3247D657C00C38D3D /* Rate.swift in Sources */,
 				1542C8C4247C0E7100C38D3D /* AppDelegate.swift in Sources */,
+				1542C8DF247D64DA00C38D3D /* Curruncy.swift in Sources */,
+				1542C8E1247D64FC00C38D3D /* Gold.swift in Sources */,
 				1542C8C6247C0E7100C38D3D /* SceneDelegate.swift in Sources */,
 				1542C8D8247C15A000C38D3D /* ChoiceViewController.swift in Sources */,
 				1542C8DB247C1A3B00C38D3D /* MainTableViewCell.swift in Sources */,
